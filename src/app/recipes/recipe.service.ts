@@ -18,7 +18,7 @@ export class RecipeService {
     ])
   ];
 
-  recipeSelected = new EventEmitter<Recipe>();
+  //recipeSelected = new EventEmitter<Recipe>();
 
   constructor(private shoppingListService: ShoppingListService){
   }
